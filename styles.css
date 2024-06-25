@@ -21,3 +21,25 @@ body {
 img {
     display: block;
 }
+
+
+.container {
+    border:;
+    display: flex;
+  }
+  
+.post {
+    border: ;
+    display: flex;
+  }
+  
+  .followers {
+    border: ;
+    display: flex;
+  }
+  
+  .following {
+    border: ;
+    display: flex;
+  }
+  
