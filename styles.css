@@ -21,3 +21,27 @@ body {
 img {
     display: block;
 }
+
+.codespace_pets {
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+
+.Edit Profile {
+
+}
+
+
+.posts {
+
+}
+
+.followers {
+
+}
+
+.following {
+
+}
+
