@@ -1,5 +1,4 @@
 /* Base Styles */
-
 :root {
     font-size: 10px;
 }
@@ -164,13 +163,14 @@ section. {
   }
   
   
-  .profile-stats {
+  .profile-stats { 
+display: inline;
     justify-content: flex-end;
     padding: 1rem 2 ;
     margin-left: 50rem;
     border: 50px;
     display: flex;
-    flex: box;
+    flex: inline;
   }
   
   .profile-stat-count {
@@ -181,22 +181,9 @@ section. {
    
   }
   
-  .followers {
-    justify-content: flex-end;
-    text-align: right;
-    margin: 10 10 10 10;
-    padding: 3rem;
-    border: 10px;
-    display: flex;
-    flex: in-line;
-  }
+
   
-  .following {
-    text-align: right;
-    border: 20px;
-    display: flex;
-    flex: in-line;
-  }
+  
   
   .profile-bio {
    text-align: right;
