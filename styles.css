@@ -109,7 +109,6 @@ float: right;
 div.profile-stats-count { 
   float: right;
   flex-direction: row;
-  text: align;
   align-content: space-between;
   display: grid;
   justify-content: space-around;
