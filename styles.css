@@ -1,161 +1,185 @@
 
+
+
+
 :root {
-    font-size: 5px;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-    flex-direction: row;
-  }
-  
-  head {
-    flex-direction: row;
-    display: inline;
-    justify-content: flex-end;
-     padding-bottom: 2rem;
-    display: flex;
-    font-family: "Open Sans", Arial, sans-serif;
-  }
-  
-  
-  header {
-    flex-direction: row;
-    justify-content: flex-end;
-    font-family: "Open Sans", Arial, sans-serif;
-    min-height: 100vh;
-    background-color: #fafafa;
-    color: #262626;
-    padding-bottom: 3rem;
-    display: flex;
-    flex-wrap: absolute;
-  }
-  
-  body {
-    flex-direction: row;
-    justify-content: flex-end;
-    font-family: "Open Sans", Arial, sans-serif;
-    min-height: 100vh;
-    background-color: #fafafa;
-    color: #262626;
-    padding-bottom: 3rem;
-    top: 0px;
-    right: 10px;
-    
+  font-size: 14px;
 }
 
-.box {
-  display: flex;
-  flex-wrap: wrap;
-  height: 400px;
-  align-content: space-between;
-}
-  
-  .container {
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-left: auto;
-    border: 20 50px;
-    display: flex;
-    flex: in-line;
-  }
-  
-  img {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .codespace_pets {
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 3rem;
-    border: 50px;
-    padding: 5rem;
-    display: flex;
-     text-align: right;
-    flex-wrap: wrap;
-  }
-  
-  .button class {
-    justify-content: space-around;
-     margin: auto;
-    border: inline;
-    margin: 30rem;
-    padding: 3rem;
-    display: flex;
-    flex: in-line;
-    flex-wrap: wrap;
-  }
-.box {
-  display: flex;
-  flex-wrap: wrap;
-  height: 400px;
-  align-content: space-between;
-}
-  container<li {
-    display: flex;
-  }
-
-container<li.profile-stat-coun {
-  display: flex;
-  flex: space-between;
-}
-  .profile-stats { 
-    flex-direction: row;
-    align-content: space-between;
-    display: flex-end;
-    justify-content: space-between;
-    padding: 10rem 40 ;
-    margin-left: auto;
-    border: 700px;
-    display: flex;
-    flex: inline;
-  }
-  
-  .profile-stat-count {
-    flex-direction: row;
-    justify-content: space-around;
-    align-content: space-around;
-    border: 10px;
-    display: inline;
-    flex: inline;
-    padding: 10 10;
-  }
-  
-
-  
-  
-  
-  .profile-bio {
-    flex-direction: row;
-    align-content: space-between;
-    margin-left: inline-flex;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .container {
-    justify-content: flex-end;
-      display: flex;
-      flex-wrap: wrap;
-  }
-  
-  .container > div > img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-  }
-  
-  .container > div {
-      flex: 1 1 150px;
-  }
-main {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   flex-direction: row;
 }
 
-.gallery-items {
+head {
+  flex-direction: row;
+  display: inline;
+  justify-content: flex-end;
+   padding-bottom: 3rem;
   display: flex;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+
+header {
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family: "Open Sans", Arial, sans-serif;
+  min-height: 100vh;
+  background-color: #fafafa;
+  color: #262626;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-wrap: absolute;
+}
+
+body {
+  flex-direction: row;
+  justify-content: flex-end;
+  font-family: "Open Sans", Arial, sans-serif;
+  min-height: 100vh;
+  background-color: #fafafa;
+  color: #262626;
+  padding-bottom: 3rem;
+top: 0px;
+right: 10px;
   
+}
+
+.box {
+display: flex;
+flex-wrap: wrap;
+height: 400px;
+}
+
+.container {
+  flex: wrap;
+  flex-direction: row;
+  margin-left: auto;
+  display: flex;
+  flex: in-line;
+}
+
+img {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.codespace_pets {
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 3rem;
+  border: 50px;
+  padding: 5rem;
+  display: flex;
+   text-align: right;
+  flex-wrap: wrap;
+  gap: 5 10px;
+}
+
+.button class {
+  justify-content: space-around;
+   margin: auto;
+  border: inline;
+  margin: 30rem;
+  padding: 3rem;
+  display: flex;
+  flex: in-line;
+  flex-wrap: wrap;
+}
+.box {
+display: flex;
+height: 400px;
+align-content: space-between;
+}
+container<li {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+container > li > profile-stat-coun {
+position: absolute;
+display: flex;
+flex: space-between;
+float: right;
+}
+
+div.profile-stats-count { 
+  float: right;
+  flex-direction: row;
+  text: align;
+  align-content: space-between;
+  display: grid;
+  justify-content: space-around;
+  padding: 10rem 40 ;
+  margin-left: auto;
+  border: 700px;
+  display: flex;
+  flex: inline;
+}
+
+.profile-stat-count {
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  border: 10px;
+  display: inline;
+  flex: inline;
+  padding: 10 10;
+}
+
+
+
+
+
+.profile-bio {
+  flex-direction: row;
+  align-content: space-between;
+  margin-left: inline-flex;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container {
+  justify-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container > div {
+    flex: 1 1 150px;
+}
+main {
+display: grid;
+flex: wrap;
+}
+
+.container > main {
+display: flex;
+flex: wrap;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery-items {
+display: flex;
+
 }
