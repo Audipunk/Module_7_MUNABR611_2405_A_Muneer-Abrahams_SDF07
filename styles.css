@@ -182,3 +182,12 @@ flex: wrap;
 display: flex;
 
 }
+.basic-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(240px,300px));
+}
+
+.card-wide {
+  grid-column: span 2 / auto;
+}
