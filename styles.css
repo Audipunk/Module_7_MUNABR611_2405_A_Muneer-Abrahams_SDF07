@@ -1,137 +1,161 @@
-/* Base Styles */
-:root {
-  font-size: 10px;
-}
-
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
 :root {
-  font-size: 10px;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-head {
-  display: inline;
-  justify-content: flex-end;
-   padding-bottom: 3rem;
-  display: flex;
-  font-family: "Open Sans", Arial, sans-serif;
-}
-
-
-header {
-  justify-content: flex-end;
-  font-family: "Open Sans", Arial, sans-serif;
-  min-height: 100vh;
-  background-color: #fafafa;
-  color: #262626;
-  padding-bottom: 3rem;
-  display: flex;
-  flex-wrap: absolute;
-}
-
-body {
-  justify-content: flex-end;
-  font-family: "Open Sans", Arial, sans-serif;
-  min-height: 100vh;
-  background-color: #fafafa;
-  color: #262626;
-  padding-bottom: 3rem;
-top: 0px;
-right: 30px;
+    font-size: 5px;
+  }
   
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    flex-direction: row;
+  }
+  
+  head {
+    flex-direction: row;
+    display: inline;
+    justify-content: flex-end;
+     padding-bottom: 2rem;
+    display: flex;
+    font-family: "Open Sans", Arial, sans-serif;
+  }
+  
+  
+  header {
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: "Open Sans", Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #fafafa;
+    color: #262626;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-wrap: absolute;
+  }
+  
+  body {
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: "Open Sans", Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #fafafa;
+    color: #262626;
+    padding-bottom: 3rem;
+    top: 0px;
+    right: 10px;
+    
 }
 
-
-
-.container {
-  justify-content: flex-end;
-  margin-left: auto;
-  border: 20 50px;
-  display: flex;
-  flex: in-line;
-}
-
-img {
+.box {
   display: flex;
   flex-wrap: wrap;
+  height: 400px;
+  align-content: space-between;
 }
-
-.codespace_pets {
-  justify-content: flex-end;
-  margin-left: rem;
-  border: 50px;
-  padding: 3rem;
-  display: flex;
-   text-align: right;
-  flex-wrap: wrap;
-}
-
-.button {
-  justify-content: flex-end;
-   margin-left: auto;
-  border: box;
-  padding: 1;
-  margin-left: 30rem;
-  padding: 1rem;
-  display: flex;
-  flex: in-line;
-  flex-wrap: wrap;
-}
-
-
-.profile-stats { 
-display: inline-block;
-  justify-content: flex-end;
-  padding: 1rem 20 ;
-  margin-left: auto;
-  border: 50px;
-  display: flex;
-  flex: inline;
-}
-
-.profile-stat-count {
-  justify-content: flex-end;
-  margin-left: inline-flex;
-  border: 5px;
-  display: flex;
-  flex: inline;
-  padding: 10 10;
-}
-
-
-
-
-
-.profile-bio {
-  margin-left: inline-flex;
-  flex-wrap: wrap;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.container {
-  justify-content: flex-end;
+  
+  .container {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: auto;
+    border: 20 50px;
+    display: flex;
+    flex: in-line;
+  }
+  
+  img {
     display: flex;
     flex-wrap: wrap;
+  }
+  
+  .codespace_pets {
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3rem;
+    border: 50px;
+    padding: 5rem;
+    display: flex;
+     text-align: right;
+    flex-wrap: wrap;
+  }
+  
+  .button class {
+    justify-content: space-around;
+     margin: auto;
+    border: inline;
+    margin: 30rem;
+    padding: 3rem;
+    display: flex;
+    flex: in-line;
+    flex-wrap: wrap;
+  }
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  align-content: space-between;
+}
+  container<li {
+    display: flex;
+  }
+
+container<li.profile-stat-coun {
+  display: flex;
+  flex: space-between;
+}
+  .profile-stats { 
+    flex-direction: row;
+    align-content: space-between;
+    display: flex-end;
+    justify-content: space-between;
+    padding: 10rem 40 ;
+    margin-left: auto;
+    border: 700px;
+    display: flex;
+    flex: inline;
+  }
+  
+  .profile-stat-count {
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    border: 10px;
+    display: inline;
+    flex: inline;
+    padding: 10 10;
+  }
+  
+
+  
+  
+  
+  .profile-bio {
+    flex-direction: row;
+    align-content: space-between;
+    margin-left: inline-flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .container {
+    justify-content: flex-end;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .container > div > img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  
+  .container > div {
+      flex: 1 1 150px;
+  }
+main {
+  flex-direction: row;
 }
 
-.container > div > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.container > div {
-    flex: 1 1 150px;
+.gallery-items {
+  display: flex;
+  
 }
