@@ -10,7 +10,6 @@
   box-sizing: border-box;
 }
 
-
 :root {
   font-size: 10px;
 }
@@ -48,8 +47,6 @@ body {
   background-color: #fafafa;
   color: #262626;
   padding-bottom: 3rem;
-  position:  ;
-background: ;
 top: 0px;
 right: 30px;
   
@@ -94,10 +91,10 @@ img {
 
 
 .profile-stats { 
-display: inline;
+display: inline-block;
   justify-content: flex-end;
-  padding: 1rem 2 ;
-  margin-left: 100rem;
+  padding: 1rem 20 ;
+  margin-left: auto;
   border: 50px;
   display: flex;
   flex: inline;
@@ -105,10 +102,11 @@ display: inline;
 
 .profile-stat-count {
   justify-content: flex-end;
-  margin-left: auto;
+  margin-left: inline-flex;
   border: 5px;
   display: flex;
   flex: inline;
+  padding: 10 10;
 }
 
 
@@ -116,8 +114,7 @@ display: inline;
 
 
 .profile-bio {
- text-align: left;
-  margin-left: auto;
+  margin-left: inline-flex;
   flex-wrap: wrap;
   display: flex;
   justify-content: flex-end;
